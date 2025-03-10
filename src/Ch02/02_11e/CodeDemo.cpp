@@ -21,6 +21,7 @@ int main(){
     std::cout << "Float          : " << weight << std::endl;
     std::cout << "Integer part   : " << (int) weight << std::endl;
     std::cout << "Fractional part: " << (int)((weight - (int)weight) * 10000) << std::endl;
+    std::cout << "Fractional part: " << (int)(weight*10000.0 - ((int)(weight) * 10000.0)) << std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
