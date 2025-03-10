@@ -5,14 +5,15 @@
 #include <iostream>
 
 int main(){
-    int a = 1023;
+    int a = 1024;
     bool flag = false;
     char lttr = 'd';
 
     if (a > 1000)
         std::cout << "Warning: a is over 1000." << std::endl;
 
-    if (a % 2)
+    //if (a % 2)
+    if( a & 1)
         std::cout << "a is odd" << std::endl;
     else
         std::cout << "a is even" << std::endl;

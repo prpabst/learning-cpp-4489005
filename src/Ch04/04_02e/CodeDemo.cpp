@@ -30,7 +30,7 @@ int main(){
             break;
         default:
             result = operand_1 + operand_2;
-            break;
+            // break;
     }
 
     std::cout << "The result is " << result << std::endl;
